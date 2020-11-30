@@ -1,0 +1,75 @@
+body{
+font-family:"Arial", sans-serif;
+}
+
+.zInputWrapper{
+/*background-color:#E4E8E8;*/
+padding: 4px;
+margin: 2px;
+border-radius:12px;
+display:inline-block;
+}
+
+.zInputWrapper-width {
+    width:70%;
+    margin:0 auto;
+    outline:none;
+}
+
+.zInput{
+display:inline-block;
+width: 200px;
+height:50px;
+background-color: white;
+margin:4px;
+padding: 12px;
+text-align:center;
+cursor:default;
+color: #FF5E14;
+border: #FF5E14 1px solid;
+border-radius:10px;
+font-size: 18px;
+overflow:hidden;
+-webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
+
+.zCheckbox{
+/* color: #000099; */
+/* border: #000099 1px solid; */
+}
+
+.zSelected{
+color: white;
+background-color:#FF5E14;
+}
+
+.zSelected.zCheckbox{
+/* background-color: #000099; */
+
+}
+
+.sticky-footer {
+    position: fixed !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    width: 100%;
+    background-color:white;
+    padding-top:2px;
+    border-top: 1px solid grey;
+    z-index: 1;
+}
+
+/*mobile*/
+@media (max-width: 575.98px) {
+    .zInputWrapper-width {
+        width:100%;
+        margin:0 auto;
+    }
+
+}
